@@ -15,7 +15,6 @@ Ce projet est exercice dont l'objectif est de fournir une API REST sous le forma
 
 ## **Architecture Hexagonale**
 
-![img.png](img.png)
 
 ### **1. Domaine**
 
