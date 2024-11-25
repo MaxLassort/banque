@@ -2,7 +2,7 @@
 
 ## **Présentation du Projet**
 
-Ce projet est exercice qui répond au kata Bank Account de chez Exalt, l'objectif est de fournir une API REST sous le format d'une architecture hexagonale 
+Ce projet est exercice dont l'objectif est de fournir une API REST sous le format d'une architecture hexagonale 
 
 ### **Fonctionnalités attendues:**
 
@@ -93,7 +93,8 @@ src/
 1. Configuration de la base de données
    - Une base PostgreSQL est utilisée.
    - Le script db-init.sql initialise les tables et ajoute des données de test.
-   - Assurez-vous que Docker est installé et exécutez 
+   - Assurez-vous que Docker est installé et exécutez
+   - Assurez-vous que le port utilisé n'est pas déjà pris (par defaut pour PostgreSQL 5432) où changer celui-ci dans le docker-compose et dans les fichier de configurations
 ````bash
    docker-compose up -d 
 ````
